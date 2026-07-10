@@ -10,19 +10,19 @@ interface FaqItem {
 
 const FAQ_ITEMS: FaqItem[] = [
   {
-    question: "How is Parley different from ChatGPT and Copilot?",
+    question: "How is Outscaled different from ChatGPT and Copilot?",
     answer:
-      "Parley isn't a chatbot — it's an action-taking agent. While tools like ChatGPT generate text responses, Parley connects to your real tools, executes multi-step tasks, remembers your context across sessions, and proactively manages your work. It's the difference between answering a question and doing the job.",
+      "Outscaled isn't a chatbot — it's an action-taking agent. While tools like ChatGPT generate text responses, Outscaled connects to your real tools, executes multi-step tasks, remembers your context across sessions, and proactively manages your work. It's the difference between answering a question and doing the job.",
   },
   {
-    question: "Is my data safe with Parley?",
+    question: "Is my data safe with Outscaled?",
     answer:
-      "Yes — and it's not a checkbox answer. Your data is encrypted in transit and at rest, never used to train shared models, and stays inside your workspace. Parley is SOC 2 Type II and GDPR-compliant, with EU data residency available on request. You own every record we touch, and you can delete it from us in one click.",
+      "Yes — and it's not a checkbox answer. Your data is encrypted in transit and at rest, never used to train shared models, and stays inside your workspace. Outscaled is SOC 2 Type II and GDPR-compliant, with EU data residency available on request. You own every record we touch, and you can delete it from us in one click.",
   },
   {
-    question: "What happens if Parley makes a mistake?",
+    question: "What happens if Outscaled makes a mistake?",
     answer:
-      "Every action Parley takes is logged with field-level reasoning, so mistakes are traceable, not mysterious. High-impact actions stay in human-approval mode by default — Parley drafts, you confirm. If something does slip through, one-click undo reverses the change in your connected tools, and Parley learns from the correction so the same mistake doesn't ship twice.",
+      "Every action Outscaled takes is logged with field-level reasoning, so mistakes are traceable, not mysterious. High-impact actions stay in human-approval mode by default — Outscaled drafts, you confirm. If something does slip through, one-click undo reverses the change in your connected tools, and Outscaled learns from the correction so the same mistake doesn't ship twice.",
   },
   {
     question: "How long does setup take?",
@@ -32,7 +32,7 @@ const FAQ_ITEMS: FaqItem[] = [
   {
     question: "Can I build custom workflows without code?",
     answer:
-      'Yes — describe what you do in plain English and Parley drafts the workflow for you to review. Edit any step the same way: "skip leads from competitors," "only ping me about deals over $50k." Templates are forkable on a Friday afternoon. Engineers stay in their queue; RevOps, Support, and Ops own their workflows directly.',
+      'Yes — describe what you do in plain English and Outscaled drafts the workflow for you to review. Edit any step the same way: "skip leads from competitors," "only ping me about deals over $50k." Templates are forkable on a Friday afternoon. Engineers stay in their queue; RevOps, Support, and Ops own their workflows directly.',
   },
 ];
 

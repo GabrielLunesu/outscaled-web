@@ -13,7 +13,7 @@ const ITEMS: { title: string; description: string }[] = [
   {
     title: "From sentence to working agent",
     description:
-      "ecomOS breaks your request into a clear plan: what the agent does, which apps it uses, what it needs from you. You see the whole job before it starts.",
+      "Outscaled breaks your request into a clear plan: what the agent does, which apps it uses, what it needs from you. You see the whole job before it starts.",
   },
   {
     title: "You decide the leash",
@@ -43,7 +43,7 @@ export function BuiltByAsking() {
             </h2>
           </div>
           <p className="max-w-[500px] text-sm text-muted-foreground lg:pb-1">
-            Describe what you need in plain words and ecomOS turns it into a
+            Describe what you need in plain words and Outscaled turns it into a
             working agent. It plans the job, picks the right skills and apps,
             and shows you every step before anything runs.
           </p>

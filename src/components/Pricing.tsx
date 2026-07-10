@@ -44,7 +44,7 @@ const tiers: Tier[] = [
       annual: "per month, billed monthly",
     },
     description:
-      "The full Parley experience for professionals who want a true AI partner in their work.",
+      "The full Outscaled experience for professionals who want a true AI partner in their work.",
     includedFeatures: [
       "1 connected workspace",
       "Up to 5 integrations",

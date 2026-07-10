@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface FooterLinkColumn {
   title: string;
   links: string[];
@@ -20,13 +18,9 @@ export function Footer() {
       <div className="flex w-full max-w-[1240px] flex-col gap-5">
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="flex flex-col gap-4">
-            <Image
-              src="/images/endless-expectations-612180.framer.app/h7fOCKCsvgnj6pswnDzTWfVkQ.png"
-              alt="Parley"
-              width={159}
-              height={96}
-              className="h-8 w-auto"
-            />
+            <span className="font-heading text-xl text-foreground">
+              Outscaled
+            </span>
             <p className="max-w-[260px] text-sm leading-relaxed text-muted-foreground">
               Your AI partner for email, calendar, research, and everything
               in between. Built for people who want to do their best work
@@ -62,11 +56,11 @@ export function Footer() {
           aria-hidden
           className="select-none whitespace-nowrap text-left font-sans text-[clamp(4.5rem,19vw,280px)] leading-none font-bold tracking-tight text-cream"
         >
-          Parley
+          Outscaled
         </p>
       </div>
       <div className="flex w-full max-w-[1240px] flex-col items-center gap-2 border-t border-border py-5 text-xs text-muted-foreground sm:flex-row sm:justify-between">
-        <p>© 2026 Parley. AI Agent template · Designed by Apollo Studio</p>
+        <p>© 2026 Outscaled. All rights reserved.</p>
         <a href="#" className="hover:text-foreground">
           Terms &amp; Conditions
         </a>

@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
-import { TrustedLogos } from "@/components/TrustedLogos";
+// import { TrustedLogos } from "@/components/TrustedLogos";
 import { WhyEcomOS } from "@/components/WhyEcomOS";
 import { BuiltByAsking } from "@/components/BuiltByAsking";
 import { Testimonials } from "@/components/Testimonials";
@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <main className="flex flex-col">
         <Hero />
-        <TrustedLogos />
+        {/* <TrustedLogos /> */}
         <WhyEcomOS />
         <BuiltByAsking />
         <Testimonials />

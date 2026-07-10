@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { CloseIcon, DoubleChevronIcon, MenuIcon } from "@/components/icons";
@@ -36,16 +35,12 @@ export function Navbar() {
         <div className="flex h-[52px] w-full max-w-[1240px] items-center justify-between">
           <Link
             href="/"
-            className="flex size-[53px] items-center justify-center"
-            aria-label="Parley home"
+            className="flex items-center justify-center"
+            aria-label="Outscaled home"
           >
-            <Image
-              src="/images/endless-expectations-612180.framer.app/h7fOCKCsvgnj6pswnDzTWfVkQ.png"
-              alt="Parley AI agent Framer template logo"
-              width={53}
-              height={32}
-              preload
-            />
+            <span className="font-heading text-xl text-foreground">
+              Outscaled
+            </span>
           </Link>
 
           <div className="hidden items-center gap-6 md:flex">
@@ -78,7 +73,7 @@ export function Navbar() {
 
           <Link href="#" className={cn(ctaClassName, "hidden md:inline-flex")}>
             <DoubleChevronIcon className="size-3.5 text-accent-pink" />
-            Hire Parley
+            Hire Outscaled
           </Link>
 
           <button
@@ -131,7 +126,7 @@ export function Navbar() {
             onClick={() => setMobileOpen(false)}
           >
             <DoubleChevronIcon className="size-3.5 text-accent-pink" />
-            Hire Parley
+            Hire Outscaled
           </Link>
         </div>
       )}

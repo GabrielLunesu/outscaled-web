@@ -7,7 +7,7 @@ import type { Testimonial } from "@/types/content";
 const testimonials: Testimonial[] = [
   {
     quote:
-      "Parley does what every other AI tool promised but never delivered — it actually takes things off my plate. My inbox went from 200 unread to zero, daily.",
+      "Outscaled does what every other AI tool promised but never delivered — it actually takes things off my plate. My inbox went from 200 unread to zero, daily.",
     name: "James R.",
     title: "CEO, CloudPlex",
     avatar:
@@ -15,7 +15,7 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "I was skeptical about 'AI partners' — but Parley learned my communication style in a week and now drafts emails I barely need to edit. Genuinely impressive.",
+      "I was skeptical about 'AI partners' — but Outscaled learned my communication style in a week and now drafts emails I barely need to edit. Genuinely impressive.",
     name: "Sophie K.",
     title: "VP Marketing, Tytotone",
     avatar:
@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Parley is the first AI tool that actually reduces my workload. I stay on top of emails, clients, and meetings without the usual chaos",
+      "Outscaled is the first AI tool that actually reduces my workload. I stay on top of emails, clients, and meetings without the usual chaos",
     name: "Paul M.",
     title: "Operations Director, ZingZap",
     avatar:
@@ -39,7 +39,7 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Parley feels like the assistant I always needed. It keeps conversations organized, handles follow-ups, and saves me hours every week.",
+      "Outscaled feels like the assistant I always needed. It keeps conversations organized, handles follow-ups, and saves me hours every week.",
     name: "Emily C.",
     title: "Head of Client Success, Junotwig",
     avatar:
@@ -115,11 +115,11 @@ export function Testimonials() {
             What people say
           </span>
           <h2 className="font-heading text-4xl text-foreground md:text-5xl">
-            Teams that work with Parley, not around it
+            Teams that work with Outscaled, not around it
           </h2>
           <p className="max-w-[560px] text-base text-muted-foreground">
             From solo founders to enterprise teams — here&apos;s what our
-            users have to say after making Parley their daily partner.
+            users have to say after making Outscaled their daily partner.
           </p>
         </div>
 

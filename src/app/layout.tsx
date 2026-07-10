@@ -9,9 +9,9 @@ const headlandOne = Headland_One({
 });
 
 export const metadata: Metadata = {
-  title: "Parley - AI Agent Framer Template for SaaS Startups",
+  title: "Outscaled - AI Agents for Ecommerce Teams",
   description:
-    "Launch an AI agent or automation startup site with Parley, a polished Framer template with product sections, workflows, pricing, blog pages, and conversion-ready layouts.",
+    "Connect your store and the tools you already use, then create AI employees with Outscaled for any job, from product listers to creative strategists.",
   icons: {
     icon: "/seo/favicon.png",
   },

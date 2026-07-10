@@ -69,10 +69,10 @@ export function Integrations() {
             Integrations
           </span>
           <h2 className="font-heading text-4xl text-foreground md:text-5xl">
-            Connect your workflow. Parley meets you there.
+            Connect your workflow. Outscaled meets you there.
           </h2>
           <p className="max-w-[560px] text-base text-muted-foreground">
-            Slack, Linear, Notion, GitHub and 60+ more. Parley triggers
+            Slack, Linear, Notion, GitHub and 60+ more. Outscaled triggers
             actions, fetches context, and keeps things in sync — right where
             your team already works.
           </p>

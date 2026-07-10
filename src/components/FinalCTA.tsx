@@ -23,7 +23,7 @@ export function FinalCTA() {
             </span>
           </h2>
           <p className="max-w-xl text-sm text-white/85 sm:text-base">
-            Join 12,000+ professionals who use Parley as their daily partner. Set up in
+            Join 12,000+ professionals who use Outscaled as their daily partner. Set up in
             minutes. Cancel anytime. Your first 100 tasks are on us.
           </p>
           <a

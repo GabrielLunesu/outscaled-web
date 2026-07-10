@@ -38,7 +38,7 @@ const DESKTOP_CARDS: DesktopCard[] = [
     number: "03.",
     title: "Works your whole stack",
     description:
-      "ecomOS sits on top of Shopify and the tools you already use. One team, every app, no switching tabs.",
+      "Outscaled sits on top of Shopify and the tools you already use. One team, every app, no switching tabs.",
     image:
       "/images/endless-expectations-612180.framer.app/5M8NQwtBDMwHm87dfXtDX1TOQ.png",
   },
@@ -57,25 +57,25 @@ const MOBILE_CARDS: MobileCard[] = [
     number: "01.",
     title: "Always context-aware",
     description:
-      "Parley remembers your preferences, priorities, and past decisions — so you never have to repeat yourself. It understands your work the way a long-time colleague would.",
+      "Outscaled remembers your preferences, priorities, and past decisions — so you never have to repeat yourself. It understands your work the way a long-time colleague would.",
   },
   {
     number: "02.",
     title: "Takes real action",
     description:
-      "Beyond suggestions, Parley executes — sending emails, booking meetings, updating records, and managing tasks across all your tools without constant hand-holding.",
+      "Beyond suggestions, Outscaled executes — sending emails, booking meetings, updating records, and managing tasks across all your tools without constant hand-holding.",
   },
   {
     number: "03.",
     title: "Connects everything",
     description:
-      "Slack, Notion, HubSpot, GitHub — all in one place. Parley connects to 60+ tools. One conversation updates everything, no extra work.",
+      "Slack, Notion, HubSpot, GitHub — all in one place. Outscaled connects to 60+ tools. One conversation updates everything, no extra work.",
   },
   {
     number: "04.",
     title: "Gets better over time",
     description:
-      "The longer you work together, the less you explain. Parley learns your tone, shortcuts, and rules. Today's prompts become tomorrow's one-word commands.",
+      "The longer you work together, the less you explain. Outscaled learns your tone, shortcuts, and rules. Today's prompts become tomorrow's one-word commands.",
   },
 ];
 
@@ -139,7 +139,7 @@ export function WhyEcomOS() {
       <div className="flex w-full max-w-[1240px] flex-col gap-10 md:gap-[73px]">
         <div className="flex w-full flex-col gap-4 md:h-[125px] md:flex-row md:items-end md:justify-between">
           <div className="flex flex-col gap-3">
-            <span className="text-sm text-muted-foreground">Why ecomOS</span>
+            <span className="text-sm text-muted-foreground">Why Outscaled</span>
             <h2 className="font-heading text-3xl text-foreground md:text-4xl">
               Real employees,
               <br />
@@ -147,7 +147,7 @@ export function WhyEcomOS() {
             </h2>
           </div>
           <p className="max-w-[340px] text-sm text-muted-foreground italic md:text-right">
-            Most AI tools wait for prompts. ecomOS agents take ownership of
+            Most AI tools wait for prompts. Outscaled agents take ownership of
             their job, doing the work across your store and reporting back
             with results, not suggestions.
           </p>
