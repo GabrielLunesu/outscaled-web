@@ -31,7 +31,7 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 mx-auto w-full max-w-[1280px]">
+    <header className="mx-auto w-full max-w-[1280px]">
       <nav className="flex h-[72px] items-center justify-center bg-white px-5 pt-5 backdrop-blur-[60px]">
         <div className="flex h-[52px] w-full max-w-[1240px] items-center justify-between">
           <Link

@@ -156,17 +156,19 @@ export function WhyEcomOS() {
         <div className="hidden grid-cols-4 gap-6 md:grid">
           {DESKTOP_CARDS.map((card, i) => (
             <RevealCard key={card.title} delay={i * 100}>
-              <div className="flex h-full flex-col gap-4 rounded-2xl bg-card p-6">
-                <span className="text-xs text-muted-foreground">
-                  {card.number}
-                </span>
-                <h3 className="font-heading text-lg text-foreground">
-                  {card.title}
-                </h3>
-                <p className="text-sm text-muted-foreground italic">
-                  {card.description}
-                </p>
-                <div className="relative mt-auto aspect-[3/4] w-full overflow-hidden rounded-xl">
+              <div className="flex h-full flex-col gap-4 overflow-hidden rounded-2xl bg-card">
+                <div className="flex flex-col gap-4 px-6 pt-6">
+                  <span className="text-xs text-muted-foreground">
+                    {card.number}
+                  </span>
+                  <h3 className="font-heading text-lg text-foreground">
+                    {card.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground italic">
+                    {card.description}
+                  </p>
+                </div>
+                <div className="relative mt-auto aspect-[3/4] w-full">
                   <Image
                     src={card.image}
                     alt={card.title}
