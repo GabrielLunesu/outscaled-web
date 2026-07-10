@@ -50,7 +50,7 @@ const DECORATIVE_SQUARES = [
 ];
 
 export function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <section className="mx-auto w-full max-w-[1280px] px-5 py-20">
@@ -77,7 +77,7 @@ export function FAQ() {
             </button>
           </div>
 
-          <div className="pointer-events-none absolute bottom-0 left-0 hidden h-36 w-56 md:block">
+          <div className="pointer-events-none relative mt-8 hidden h-36 w-56 md:block">
             {DECORATIVE_SQUARES.map((square, index) => (
               <span
                 key={index}
